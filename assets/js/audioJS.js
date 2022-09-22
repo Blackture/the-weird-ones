@@ -88,17 +88,19 @@ function OnSeekClick() {
     onSeekClick = !onSeekClick;
 }
 
-var update_loop = setInterval(Main, 1);
-
 var init = true;
 var tp;
 var t;
 var ts;
 var x;
+var update_loop = setInterval(Main, 1);
 
 Main();
 
 function Main() {
+    if (x == null)
+        return;
+    
     if (init) {
         tp = document.getElementById("timeAP");
         t = document.getElementById("timeA");
