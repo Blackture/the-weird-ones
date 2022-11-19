@@ -4,6 +4,10 @@ var songAmount = 3;
 var beforeSearch = 1;
 var isBeforeSearchSet = false;
 
+function Search(e) {
+    filterTable()
+}
+
 function SetRow(q) {
     if (q != 0) {
         switch (songAmount) {
@@ -71,6 +75,38 @@ function SetSongAmount(r) {
 function Load() {
     currentPage = 1;
     SetSongAmount(3);
+    GetAttachment();
+}
+
+function GetAttachment() {
+    var url = document.baseURI;
+    if (url.includes("?")) {
+        var splitUri = url.split("?");
+        if (splitUri[1].includes("sid")) {
+            var id = splitUri[1].replace("sid=", "");
+            var sid = id.replace("-", " ");
+            alert(sid);
+            document.querySelector("#song-search-field").value = sid;
+            FT(document.querySelector("#song-search-field"));
+        }
+    }
+}
+
+function FT(e) {
+    if (document.querySelector("#SongTable") == null)
+        return;
+
+    for (var t = e.value.toUpperCase(), o = document.querySelector("#SongTable").rows, l = 0; l < o.length; l++) {
+        for (var a = o[l].cells, s = !1, n = 0; n < a.length; n++) {
+            o[l].cells[n].textContent.toUpperCase().indexOf(t) > -1 && (s = !0)
+        }
+        //o[l].style.display = !0 === s ? "" : "none"
+        var isInRow = !0 === s ? true : false
+
+        if (isInRow) {
+            SetRow(l + 1); //+1 because didn't create a zero-indexed table.
+        }
+    }
 }
 
 function filterTable(e) {
