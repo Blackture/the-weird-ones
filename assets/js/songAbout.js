@@ -41,6 +41,7 @@ function SetData(_sid) {
             $("#bg").text(e.background);
             $("#mood").text(e.mood);
             $("#title").text(GetTitle(_sid));
+            $(document).attr("title", GetTitle(_sid) + " - Shattered Texture");
             $("#availability").text(e.availability);
 
             for (let i = 0; i < e.platforms.length; i++) {
