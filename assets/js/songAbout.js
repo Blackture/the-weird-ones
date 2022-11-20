@@ -90,23 +90,23 @@ const songs = [
             },
             {
                 "Name": "Spotify",
-                "Available": false,
-                "Link": ""
+                "Available": true,
+                "Link": "https://open.spotify.com/album/39tPU4ma89hXssDqI2ey8B?si=MNGQIYwgR8Cg0Yx87MxIzQ"
             },
             {
                 "Name": "Apple Music",
-                "Available": false,
-                "Link": ""
+                "Available": true,
+                "Link": "https://music.apple.com/de/album/scary-monsters/1653763070?i=1653763071"
             },
             {
                 "Name": "Amazon Music",
-                "Available": false,
-                "Link": ""
+                "Available": true,
+                "Link": "https://music.amazon.de/albums/B0BLYCPLX7?marketplaceId=A1PA6795UKMFR9&musicTerritory=DE&ref=dm_sh_OsgGzgw1iwa286XHQuatAuubt&trackAsin=B0BLXVNGXP"
             },
             {
                 "Name": "Deezer",
-                "Available": false,
-                "Link": ""
+                "Available": true,
+                "Link": "https://deezer.page.link/wKwYaYDZk7hqvGB86"
             },
             {
                 "Name": "SoundCloud",
