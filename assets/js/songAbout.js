@@ -49,7 +49,7 @@ function SetData(_sid) {
                 if (e.platforms[i].Available) {
                     $("#p_" + _n).prop("disabled", false);
                     $("#p_" + _n).on("click", function () {
-                        window.open(e.platforms[i].Name);
+                        window.open(e.platforms[i].Link);
                     });
                 }
                 else {
