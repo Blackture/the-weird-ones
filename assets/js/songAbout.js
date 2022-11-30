@@ -114,5 +114,45 @@ const songs = [
                 "Link": "https://soundcloud.com/shatteredtexture/scary-monsters-nhd"
             }
         ]
+    },
+    {
+        "sid": "pressure",
+        "cover": "https://drive.google.com/uc?export=download&id=1W7d4oHM6MoMUSN1OeO9UThzH1js1nmdq",
+        "desc": "The song is a groovy alternative indie rock style instrumental and uses instruments like electric guitar, drum kit, bass and an organ.",
+        "background": "The idea of the song was developed after there was a relief of a lot of pressure in my life. It felt great, so I tried to capture those feelings building pressure and the relief afterwards in a song.",
+        "mood": "This song expresses pressure and the relief afterwards, which makes it quite aggressive, energetic, intense and dark.",
+        "availability": "This song is available on YouTube and SoundCloud right now.",
+        "platforms": [
+            {
+                "Name": "YouTube",
+                "Available": true,
+                "Link": "https://youtu.be/Tp5UefQJp1E"
+            },
+            {
+                "Name": "Spotify",
+                "Available": false,
+                "Link": "https://open.spotify.com/album/39tPU4ma89hXssDqI2ey8B?si=MNGQIYwgR8Cg0Yx87MxIzQ"
+            },
+            {
+                "Name": "Apple Music",
+                "Available": false,
+                "Link": "https://music.apple.com/de/album/scary-monsters/1653763070?i=1653763071"
+            },
+            {
+                "Name": "Amazon Music",
+                "Available": false,
+                "Link": "https://music.amazon.de/albums/B0BLYCPLX7?marketplaceId=A1PA6795UKMFR9&musicTerritory=DE&ref=dm_sh_OsgGzgw1iwa286XHQuatAuubt&trackAsin=B0BLXVNGXP"
+            },
+            {
+                "Name": "Deezer",
+                "Available": false,
+                "Link": "https://deezer.page.link/wKwYaYDZk7hqvGB86"
+            },
+            {
+                "Name": "SoundCloud",
+                "Available": true,
+                "Link": "https://soundcloud.com/shatteredtexture/pressure-nhd"
+            }
+        ]
     }
 ]
