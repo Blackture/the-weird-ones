@@ -81,7 +81,7 @@ const songs = [
         "desc": "The track was made up using an alternative, rock, acoustic soul and indie style. The song's kept relatively deep and the chord pattern is somewhat weird.",
         "background": "This song was made for Halloween. The title refers to Halloween because it was an approaching upcoming event when we created it.",
         "mood": "The first part of the song tries to give the listener the feeling of a silent and dark environment. Progressing with adding the creepy feeling of being observed. All in all, the mood of the song is kept rather dark and creepy due to its background.",
-        "availability": "This song is available on YouTube and SoundCloud right now.",
+        "availability": "This song is available on Spotify, Apple Music, Amazon Music, YouTube, Deezer, Soundcloud,...",
         "platforms": [
             {
                 "Name": "YouTube",
