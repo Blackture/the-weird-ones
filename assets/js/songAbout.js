@@ -126,32 +126,32 @@ const songs = [
             {
                 "Name": "YouTube",
                 "Available": true,
-                "Link": "https://youtu.be/Tp5UefQJp1E"
+                "Link": "https://youtu.be/eY7t-i8CH6Q"
             },
             {
                 "Name": "Spotify",
-                "Available": false,
-                "Link": "https://open.spotify.com/album/39tPU4ma89hXssDqI2ey8B?si=MNGQIYwgR8Cg0Yx87MxIzQ"
+                "Available": true,
+                "Link": "https://open.spotify.com/album/6WycVGzEy2oMp5MNTHPRIA?si=WzbnRo3QRaqtpXSEuEWyhg"
             },
             {
                 "Name": "Apple Music",
-                "Available": false,
-                "Link": "https://music.apple.com/de/album/scary-monsters/1653763070?i=1653763071"
+                "Available": true,
+                "Link": "https://music.apple.com/de/album/escape-insanity-single/1657315845"
             },
             {
                 "Name": "Amazon Music",
-                "Available": false,
-                "Link": "https://music.amazon.de/albums/B0BLYCPLX7?marketplaceId=A1PA6795UKMFR9&musicTerritory=DE&ref=dm_sh_OsgGzgw1iwa286XHQuatAuubt&trackAsin=B0BLXVNGXP"
+                "Available": true,
+                "Link": "https://music.amazon.de/albums/B0BNCBMN5X?marketplaceId=A1PA6795UKMFR9&musicTerritory=DE&ref=dm_sh_YYSp8yab9TwYjS5hMrnIv5t1A"
             },
             {
                 "Name": "Deezer",
-                "Available": false,
-                "Link": "https://deezer.page.link/wKwYaYDZk7hqvGB86"
+                "Available": true,
+                "Link": "https://deezer.page.link/yzwP8isPmt5DySMr5"
             },
             {
                 "Name": "SoundCloud",
                 "Available": true,
-                "Link": "https://soundcloud.com/shatteredtexture/pressure-nhd"
+                "Link": "https://soundcloud.com/shatteredtexture/pressure"
             }
         ]
     }
