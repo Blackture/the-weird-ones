@@ -1,5 +1,5 @@
 var currentPage = 1;
-const lastPage = 3;
+const lastPage = 4;
 var songAmount = 3;
 var beforeSearch = 1;
 var isBeforeSearchSet = false;
