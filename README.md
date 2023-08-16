@@ -1,1 +1,1 @@
-# (C) 2022 Shattered Texture. All rights reserved.
+# &copy; 2022 Shattered Texture. All rights reserved.
